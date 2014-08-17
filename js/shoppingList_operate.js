@@ -2,7 +2,7 @@ $(document).ready(function(){
     getShoppingList();
     $('.cartPlus_display').text(localStorage.amounts);
     $('#totalMoney').text(getTotalMoney());
-    $('.btn').on('click',removeCart);
+    $('.btn_remove').on('click',removeCart);
 
 
 });
@@ -19,8 +19,9 @@ function getShoppingList(){
     }
     $('#order').append('<hr>');
     $('#order').append('<p class="text-right text-danger h4"><label>总计：<span id="totalMoney"></span>元</label></p>');
-    $('#order').append('<p class="text-right" id="ok"><a class="btn btn-primary btn-lg" role="button" href="#">确定</a></p>')
+    $('#order').append('<p class="text-right" id="ok"><a class="btn_remove btn-primary btn-lg" role="button" href="index.html">确定</a></p>')
 }
 function removeCart(){
     localStorage.removeItem("name");
+    localStorage.removeItem("amounts");
 }

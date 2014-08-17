@@ -21,6 +21,7 @@ $(document).ready(function () {
 function cartAmount() {
     localStorage.amounts = Number(localStorage.amounts) + 1;
     $('.cartPlus_display').text(localStorage.amounts);
+   localStorage.setItem('amounts',localStorage.amounts);
 }
 
 
