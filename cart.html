@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let Us Go!!</title>
+
+    <script type="text/javascript" src="lib/lodash-2.4.1/lodash.js"></script>
+    <script type="text/javascript" src="lib/lodash-2.4.1/lodash.compat.js"></script>
+    <script type="text/javascript" src="lib/jquery-2.1.1/jquery-2.1.1.js"></script>
+    <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="lib/bootstrap-3.2.0-dist/css/bootstrap.min.css"/>
+
+    <!--<script type="text/javascript" src="js/main.js"></script>-->
+    <script type="text/javascript" src="js/cartItem.js"></script>
+    <script type="text/javascript" src="js/item.js"></script>
+    <script type="text/javascript" src="js/loadItem.js"></script>
+    <script type="text/javascript" src="js/addToCart.js"></script>
+    <script type="text/javascript" src="js/cart_operate.js"></script>
+
+</head>
+<body>
+<div class="container">
+
+
+    <form name="full" action="#" method="post" autocomplete="off">
+        <div class="panel panel-primary well well-sm">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>Let Us Go !!!</h4>
+
+                        <h1><span class="glyphicon glyphicon-send"></span></h1>
+                    </div>
+                    <div class="col-md-7">
+                        <nav class="navbar navbar-inverse" role="navigation">
+                            <div class="container-fluid">
+                                <div class="collapse navbar-collapse" id="navigation_home">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="index.html">首页</a></li>
+                                        <li><a href="goodsList.html">商品列表</a></li>
+                                        <li class="active"><a href="cart.html">购物车</a></li>
+                                        <p class="navbar-text">亲，进店有好礼咕～～（╯﹏╰）ｂ</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="col-md-1 col-md-offset-11">
+                        <h1>
+                            <a href="cart.html"></a>
+                            <span class="glyphicon glyphicon-shopping-cart"></span></h1>
+                        <h6 > 购物车（<span class="cartPlus_display"></span>）
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-danger well well-sm">
+            <div class="panel-heading">
+                <div class="row text-center">
+                    <div class="col-md-3"><label class="h4">名称</label></div>
+                    <div class="col-md-3"><label class="h4">单价</label></div>
+                    <div class="col-md-3"><label class="h4">数量</label></div>
+                    <div class="col-md-3"><label class="h4">小计</label></div>
+                </div>
+            </div>
+            <div id="addCart"></div>
+
+            <!--<div class="panel panel-danger well well-sm">-->
+            <!--<div class="panel-heading">-->
+            <!--<table>-->
+            <!--<tr>-->
+
+            <!--<th><h2>购物车</h2></th>-->
+            <!--<th><h4 class="text-right">GOODS LIST!!!</h4></th>-->
+            <!--</tr>-->
+            <!--</table>-->
+            <!--</div>-->
+
+            <!--<div class="panel panel-danger well well-sm">-->
+            <!--<div class="panel-heading">-->
+            <!--<h4>服装鞋包</h4>-->
+            <!--</div>-->
+            <!--<table class="table table-striped text-center">-->
+            <!--<tr>-->
+            <!--<th class="text-center">名称</th>-->
+            <!--<th class="text-center">单价</th>-->
+            <!--<th class="text-center">数量</th>-->
+            <!--<th class="text-center">增减</th>-->
+            <!--<th class="text-center">小计</th>-->
+            <!--</tr>-->
+            <!--<tr>-->
+            <!--<td>服装鞋包</td>-->
+            <!--<td>１２２</td>-->
+            <!--<td>1</td>-->
+            <!--<td>-->
+            <!--<div class="btn-group　btn-group-xs">-->
+            <!--<button type="button"-->
+            <!--class="btn btn-primary cartPlus_btn">-->
+            <!--<span class="glyphicon glyphicon-plus"></span>-->
+            <!--</button>-->
+            <!--<button type="button"-->
+            <!--class="btn btn-primary cartMinus_btn">-->
+            <!--<span class="glyphicon glyphicon-minus"></span>-->
+            <!--</button>-->
+            <!--</div>-->
+            <!--</td>-->
+            <!--<td>-->
+            <!--１２２-->
+            <!--</td>-->
+            <!--</tr>-->
+            <!--</table>-->
+            <!--</div>-->
+
+
+            <!--</div>-->
+
+
+    </form>
+</div>
+
+</body>
+</html>

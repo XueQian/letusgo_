@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let Us Go!!</title>
+
+    <script type="text/javascript" src="lib/lodash-2.4.1/lodash.js"></script>
+    <script type="text/javascript" src="lib/lodash-2.4.1/lodash.compat.js"></script>
+    <script type="text/javascript" src="lib/jquery-2.1.1/jquery-2.1.1.js"></script>
+    <script src="lib/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="lib/bootstrap-3.2.0-dist/css/bootstrap.min.css"/>
+
+    <script type="text/javascript" src="js/item.js"></script>
+    <script type="text/javascript" src="js/cartItem.js"></script>
+    <script type="text/javascript" src="js/loadItem.js"></script>
+    <script type="text/javascript" src="js/addToCart.js"></script>
+    <script type="text/javascript" src="js/shoppingList_operate.js"></script>
+
+
+</head>
+<body>
+<div class="container">
+
+
+    <form name="full" action="#" method="post" autocomplete="off">
+        <div class="panel panel-primary well well-sm">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>Let Us Go !!!</h4>
+                        <h1> <span class="glyphicon glyphicon-send"></span></h1>
+                    </div>
+                    <div class="col-md-7">
+                        <nav class="navbar navbar-inverse" role="navigation">
+                            <div class="container-fluid">
+                                <div class="collapse navbar-collapse" id="navigation_home">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="index.html">首页</a></li>
+                                        <li><a href="goodsList.html">商品列表</a></li>
+                                        <li><a href="cart.html">购物车</a></li>
+                                        <p class="navbar-text">亲，进店有好礼咕～～（╯﹏╰）ｂ</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="col-md-1 col-md-offset-11">
+                        <h2><span class="glyphicon glyphicon-shopping-cart"></span></h2>
+                        <h6 > 购物车（<span class="cartPlus_display"></span>）
+                        </h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-danger well well-sm">
+            <div class="panel-heading">
+                <p class="h3">购物清单</p>
+            </div>
+
+            <div class="panel-body"  id="order">
+                <p class="text-center h4">购物清单</p>
+                <div class="row text-center">
+                    <div class="col-md-3">名称</div>
+                    <div class="col-md-3">数量</div>
+                    <div class="col-md-3">单价</div>
+                    <div class="col-md-3">小计</div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </form>
+</div>
+
+</body>
+</html>
