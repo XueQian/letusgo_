@@ -40,9 +40,15 @@ $(document).ready(function () {
         '<p class="text-right"><a class="btn btn-primary btn-lg" role="button" href="shoppingList.html">结算</a></p>');
     $('#totalMoney').text(getTotalMoney());
     $('#cartData').on('change',function(){
-        console.log($(this).val());
+       var cartNumber = $(this).val();
+        cartChange($(this).data('name'),parseInt(cartNumber));
+
     });
 });
+function cartChange(name,cartNumber){
+    var cartData=JSON.parse(localStorage.getItem('cartData'));
+
+}
 function isExist1(category) {
     if (already_exit_sort.length === 0) {
         return true;
