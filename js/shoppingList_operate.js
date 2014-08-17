@@ -1,13 +1,10 @@
 $(document).ready(function(){
     getShoppingList();
+    $('.cartPlus_display').text(localStorage.amounts);
     $('#totalMoney').text(getTotalMoney());
     $('.btn').on('click',removeCart);
-    $('.cartPlus_display').text(localStorage.amounts);
-    $('.cartPlus_btn').on('click', function () {
-        localStorage.getItem('amounts');
-        addToCart($(this)[0].id);
-        cartAmount($(this));
-    });
+
+
 });
 function getShoppingList(){
     var items=JSON.parse(localStorage.getItem("name"));
