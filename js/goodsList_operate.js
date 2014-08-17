@@ -19,6 +19,9 @@ $(document).ready(function () {
     });
 });
 function cartAmount() {
+    if(localStorage.amounts == undefined){
+        localStorage.amounts = 0;
+    }
     localStorage.amounts = Number(localStorage.amounts) + 1;
     $('.cartPlus_display').text(localStorage.amounts);
    localStorage.setItem('amounts',localStorage.amounts);

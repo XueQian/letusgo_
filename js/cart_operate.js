@@ -38,7 +38,6 @@ $(document).ready(function () {
     }
     $('#addCart').append('<p class="text-right text-danger h4"><label>总计：<span id="totalMoney"></span>元</label></p>' +
         '<p class="text-right"><a class="btn btn-primary btn-lg" role="button" href="shoppingList.html">结算</a></p>');
-    $('#totalCount').text(getTotalCount());
     $('#totalMoney').text(getTotalMoney());
     $('#cartData').on('change',function(){
         console.log($(this).val());
@@ -55,19 +54,6 @@ function isExist1(category) {
         }
     }
     return true;
-}
-function getTotalCount() {
-    var items = JSON.parse(localStorage.getItem("name"));
-    var totalCount = 0;
-    if (items === null) {
-        totalCount = 0;
-    } else {
-        for (var i = 0; i < items.length; i++) {
-            totalCount += items[i].count;
-        }
-    }
-
-    return totalCount;
 }
 function getTotalMoney() {
     var items = JSON.parse(localStorage.getItem("name"));
