@@ -15,13 +15,12 @@ $(document).ready(function () {
     $('.cartPlus_btn').on('click', function () {
         localStorage.getItem('amounts');
         addToCart($(this)[0].id);
-        cartAmount($(this));
+        cartAmount();
     });
 });
 function cartAmount() {
     localStorage.amounts = Number(localStorage.amounts) + 1;
     $('.cartPlus_display').text(localStorage.amounts);
-    localStorage.setItem('amounts',localStorage.amounts);
 }
 
 

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aaddcfe-8772-4564-b430-0bcb2e36389e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/cart_operate.js" afterPath="$PROJECT_DIR$/js/cart_operate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goodsList.html" afterPath="$PROJECT_DIR$/goodsList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/goodsList_operate.js" afterPath="$PROJECT_DIR$/js/goodsList_operate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/shoppingList_operate.js" afterPath="$PROJECT_DIR$/js/shoppingList_operate.js" />
     </list>
     <ignored path="letusgo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +31,7 @@
       <file leaf-file-name="goodsList_operate.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/goodsList_operate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6195652" vertical-offset="0" max-vertical-offset="756">
+            <state vertical-scroll-proportion="0.6195652" vertical-offset="0" max-vertical-offset="738">
               <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
@@ -38,8 +41,8 @@
       <file leaf-file-name="goodsList.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goodsList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="1692">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state vertical-scroll-proportion="-7.3333335" vertical-offset="810" max-vertical-offset="1692">
+              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -58,8 +61,8 @@
       <file leaf-file-name="cart_operate.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/cart_operate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2430">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="2484">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -68,8 +71,8 @@
       <file leaf-file-name="shoppingList.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shoppingList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-49.333332" vertical-offset="0" max-vertical-offset="1638">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.666667" vertical-offset="702" max-vertical-offset="1638">
+              <caret line="52" column="29" selection-start-line="51" selection-start-column="24" selection-end-line="52" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -78,8 +81,8 @@
       <file leaf-file-name="shoppingList_operate.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/shoppingList_operate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="612">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -118,14 +121,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/goodsList.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/shoppingList.html" />
         <option value="$PROJECT_DIR$/cart.html" />
-        <option value="$PROJECT_DIR$/js/shoppingList_operate.js" />
         <option value="$PROJECT_DIR$/js/addToCart.js" />
-        <option value="$PROJECT_DIR$/js/cart_operate.js" />
+        <option value="$PROJECT_DIR$/js/shoppingList_operate.js" />
+        <option value="$PROJECT_DIR$/goodsList.html" />
         <option value="$PROJECT_DIR$/js/goodsList_operate.js" />
+        <option value="$PROJECT_DIR$/js/cart_operate.js" />
       </list>
     </option>
   </component>
@@ -450,12 +453,12 @@
       <workItem from="1408244754866" duration="2798000" />
       <workItem from="1408256485959" duration="967000" />
       <workItem from="1408264440374" duration="48000" />
-      <workItem from="1408264923398" duration="10538000" />
+      <workItem from="1408264923398" duration="11734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14351000" />
+    <option name="totallyTimeSpent" value="15547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="25" width="1291" height="744" extended-state="0" />
@@ -620,30 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-49.333332" vertical-offset="0" max-vertical-offset="1638">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goodsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="1692">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/addToCart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
@@ -652,25 +631,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shoppingList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="702" max-vertical-offset="1638">
+          <caret line="52" column="29" selection-start-line="51" selection-start-column="24" selection-end-line="52" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goodsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335" vertical-offset="810" max-vertical-offset="1692">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/shoppingList_operate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/cart_operate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2430">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="2484">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/goodsList_operate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6195652" vertical-offset="0" max-vertical-offset="756">
+        <state vertical-scroll-proportion="0.6195652" vertical-offset="0" max-vertical-offset="738">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>

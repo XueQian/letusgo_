@@ -1,16 +1,19 @@
 var already_exit_sort = [];
 
 $(document).ready(function () {
-    $('.cartPlus_btn').on('click', function () {
-        addToCart($(this)[0].id);
-        localStorage.amounts = Number(localStorage.amounts) + 1;
-        $('.cartPlus_display').text(localStorage.amounts);
-    });
+
 
     var items=JSON.parse(localStorage.getItem("name"));
     if(items===null){
         items=[];
     }
+
+    $('.cartPlus_display').text(localStorage.amounts);
+    $('.cartPlus_btn').on('click', function () {
+        localStorage.getItem('amounts');
+        addToCart($(this)[0].id);
+        cartAmount();
+    });
     for (var i = 0; i < items.length; i++) {
         if (isExist1(items[i].item.category)) {
             $('#addCart').append(' <div class="panel panel-danger well well-sm"><div class="panel-heading"><label>'
