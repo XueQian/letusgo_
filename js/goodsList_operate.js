@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   var itemList = LoadItem();
+    var itemList = LoadItem();
     //  localStorage.setItem('itemCount', itemList.length);
     localStorage.setItem('item', JSON.stringify(itemList));
     var item = JSON.parse(localStorage.getItem('item'));
@@ -8,17 +8,24 @@ $(document).ready(function () {
                 + '<td id="goodsList_name">' + item[m].name + '</td>'
                 + '<td id="goodsList_price">' + item[m].price + '</td>'
                 + '<td id="goodsList_unit">' + item[m].unit + '</td>'
-                + '<td id="goodsList_addButton"><button type="button" id="'+item[m].name+'" class="btn btn-primary cartPlus_btn">添加 </button></td></tr>'
+                + '<td id="goodsList_addButton"><button type="button" id="' + item[m].name + '" class="btn btn-primary cartPlus_btn">添加 </button></td></tr>'
         );
     }
     localStorage.setItem('amounts', 0);
     $('.cartPlus_display').text(localStorage.amounts);
     $('.cartPlus_btn').on('click', function () {
         addToCart($(this)[0].id);
-        localStorage.amounts = Number(localStorage.amounts) + 1;
-        $('.cartPlus_display').text(localStorage.amounts);
+        cartAmount($(this));
     });
+
 });
+
+function cartAmount() {
+    localStorage.amounts = Number(localStorage.amounts) + 1;
+    $('.cartPlus_display').text(localStorage.amounts);
+}
+
+
 
 
 
