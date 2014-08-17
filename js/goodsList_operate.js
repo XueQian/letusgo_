@@ -11,18 +11,17 @@ $(document).ready(function () {
                 + '<td id="goodsList_addButton"><button type="button" id="' + item[m].name + '" class="btn btn-primary cartPlus_btn">添加 </button></td></tr>'
         );
     }
-    localStorage.setItem('amounts', 0);
-    $('.cartPlus_display').text(localStorage.amounts);
+   $('.cartPlus_display').text(localStorage.amounts);
     $('.cartPlus_btn').on('click', function () {
+        localStorage.getItem('amounts');
         addToCart($(this)[0].id);
         cartAmount($(this));
     });
-
 });
-
 function cartAmount() {
     localStorage.amounts = Number(localStorage.amounts) + 1;
     $('.cartPlus_display').text(localStorage.amounts);
+    localStorage.setItem('amounts',localStorage.amounts);
 }
 
 
