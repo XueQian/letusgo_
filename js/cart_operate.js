@@ -40,29 +40,28 @@ $(document).ready(function () {
         '<p class="text-right"><a class="btn btn-primary btn-lg" role="button" href="shoppingList.html">结算</a></p>');
     $('#totalMoney').text(getTotalMoney());
     $('.cartData').on('change',function(){
-        //cartChange($(this));
         var count = $(this).val();
         var money;
         var items = JSON.parse(localStorage.getItem("name"));
+        var amounts = parseInt(localStorage.getItem('amounts'));
+        if(amounts === null){
+            amounts = 0;
+        }
         var name = $(this).attr("name");
         for (var i = 0; i < items.length; i++) {
             if (items[i].item.name == name) {
+                amounts = amounts - items[i].count + parseInt(count);
+                localStorage.setItem('amounts',amounts);
                 items[i].count = parseInt(count);
                 money = count * items[i].item.price;
-                // element.closest('num').find('.perMoney').text(money);
                 localStorage.setItem("name", JSON.stringify(items));
                 break;
             }
-            var total=0;
-            total+=count;
         }
-        console.log($(this)[0].id);
         var array = $(this)[0].id;
-        console.log($('.'+array));
         $('.'+array).text(money);
         $('#totalMoney').text(getTotalMoney());
         localStorage.getItem('amounts');
-        localStorage.amounts=parseInt(total);
         $('.cartPlus_display').text(localStorage.amounts);
     });
 });
