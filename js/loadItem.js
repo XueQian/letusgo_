@@ -1,6 +1,6 @@
 function LoadItem() {
     return [
-        new Item('ITEM00000', '服装鞋包', '服装１', 11, '件'),
+        new Item('ITEM00004', '服装鞋包', '服装１', 11, '件'),
         new Item('ITEM00000', '服装鞋包', '服装2', 11, '件'),
         new Item('ITEM00001', '手机数码', '手机１', 110, '件'),
         new Item('ITEM00002', '全球美食', '美食１', '11', '套'),
